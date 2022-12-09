@@ -1,0 +1,100 @@
+<!--create an html page that uses tables for a a layout and also another table to display data-->
+<!--the page should have a header, a footer, and a navigation bar, and a main content area-->
+<!--the main content area should have a table that displays data-->
+<!--for this page the data for the table will be hard coded-->
+<!--first let's start a basic HTML template  to hold our website-->
+<!--this site will be about songs in a rhythm game called Quaver-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quaver Leaderboard</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<!--start the body section to put the content of the page-->
+<body>
+    <!--this is the header of our website-->
+    <header>
+        <a href="https://quavergame.com" ><img src="images/logo.png" alt="Quaver" class="header"></a>
+    </header>
+    <!--this is the left navigation bar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Leaderboard.html">Leaderboard</a></li>
+            <li><a href="RankingQueue.html">Ranking Queue</a></li>
+            <li><a href="Playlists.html">Playlists</a></li>
+        </ul>
+    </nav>
+    <main>
+        <br>
+        <h2>Player Global Leaderboard</h2>
+        <!--this is the table that will hold our data-->
+        <!--rows tr tags go across and th and td tags go down-->
+        <!--the table for our data starts here-->
+        <table>
+            <!--this is the header row for our table-->
+            <!--the header row is where we put the column names-->
+            <!--each row has a start <tr> and ends with a </tr> tag-->
+            <!--this <tr> tag stands for one table row-->
+                <tr>
+                    <!--each th tag is a table header, which lables the column-->
+                    <th>Payer</th>
+                    <th>Overall Rating</th>
+                    <th>Score</th>
+                    <th>Overall Accuracy</th>
+                    <th>Play Count</th>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>Mitter</td>
+                    <td>960.81</td>
+                    <td>638,605,068</td>
+                    <td>99.66%</td>
+                    <td>2,372</td>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>neptunefun</td>
+                    <td>959.06</td>
+                    <td>185,444,141</td>
+                    <td>99.40%</td>
+                    <td>343</td>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>Reshiram</td>
+                    <td>956.98</td>
+                    <td>1,387,553,130</td>
+                    <td>99.49%</td>
+                    <td>2,501</td>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>Eliminate</td>
+                    <td>933.80</td>
+                    <td>121,622,775</td>
+                    <td>99.64%</td>
+                    <td>264</td>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>myuuu</td>
+                    <td>928.90</td>
+                    <td>214,213,857</td>
+                    <td>99.50%</td>
+                    <td>543</td>
+                </tr>
+        </table>
+        <!--line breaks for space-->
+        <br>
+    </main>
+    <!--the footer lines the bottom of the page-->
+    <footer>
+        <p>Created by:<a href="mailto:anddames@uat.edu">Andrew Dames Jr.</a></p>
+        <p>Date Created: <time datetime="2022-11-09">November 11, 2022</time></p>
+    </footer>
+</body>
+</html>

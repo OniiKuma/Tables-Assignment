@@ -1,0 +1,100 @@
+<!--create an html page that uses tables for a a layout and also another table to display data-->
+<!--the page should have a header, a footer, and a navigation bar, and a main content area-->
+<!--the main content area should have a table that displays data-->
+<!--for this page the data for the table will be hard coded-->
+<!--first let's start a basic HTML template  to hold our website-->
+<!--this site will be about songs in a rhythm game called Quaver-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quaver Ranking Queue</title>
+    <link rel="stylesheet" href="css3.css">
+</head>
+<!--start the body section to put the content of the page-->
+<body>
+    <!--this is the header of our website-->
+    <header>
+        <a href="https://quavergame.com" ><img src="images/logo.png" alt="Quaver" class="header"></a>
+    </header>
+    <!--this is the left navigation bar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Leaderboard.html">Leaderboard</a></li>
+            <li><a href="RankingQueue.html">Ranking Queue</a></li>
+            <li><a href="Playlists.html">Playlists</a></li>
+        </ul>
+    </nav>
+    <main>
+        <br>
+        <h2>Player Ranking Queue</h2>
+        <!--this is the table that will hold our data-->
+        <!--rows tr tags go across and th and td tags go down-->
+        <!--the table for our data starts here-->
+        <table>
+            <!--this is the header row for our table-->
+            <!--the header row is where we put the column names-->
+            <!--each row has a start <tr> and ends with a </tr> tag-->
+            <!--this <tr> tag stands for one table row-->
+                <tr>
+                    <!--each th tag is a table header, which lables the column-->
+                    <th>Map</th>
+                    <th>Submitter</th>
+                    <th>Difficulty</th>
+                    <th>Length</th>
+                    <th>Key Number</th>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>DEAD END<br>Helblinde</td>
+                    <td>Flur</td>
+                    <td>Blind Death - 36.81 (Unranked)</td>
+                    <td>4:19</td>
+                    <td>4K</td>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>Songs Compilation<br>THE ORAL CIGARETTES</td>
+                    <td>Symmatrix</td>
+                    <td>Marathon - 22.02 (Unranked)</td>
+                    <td>20:50</td>
+                    <td>4K</td>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>Euphoria<br>Ata</td>
+                    <td>8230</td>
+                    <td>Expert - 29.21 (Unranked)</td>
+                    <td>4:23</td>
+                    <td>4K</td>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>Miss You<br>Oliver Tree & Robin Schulz</td>
+                    <td>Duftea</td>
+                    <td>Remind him - 27.90 (Unranked)</td>
+                    <td>3:05</td>
+                    <td>7K</td>
+                </tr>
+                <tr>
+                    <!--each td tag stands for table data, you will use this tag the most in a table-->
+                    <td>Seikatsu Konkyuu Dame Dinero (TV Size)<br>Uesaka Sumire</td>
+                    <td>Ainer</td>
+                    <td>4K Easy - 2.15, 7K Easy - 3.14, Sya's 4K Normal - 7.12, 7K Normal - 12.44, Collab 4K Hard - 18.96, 7K Hard - 21.08, 4K Insane - 22.56, 4K Expert - 26.61 (Unranked)</td>
+                    <td>1:28</td>
+                    <td>4K, 7K</td>
+                </tr>
+        </table>
+        <!--line breaks for space-->
+        <br>
+    </main>
+    <!--the footer lines the bottom of the page-->
+    <footer>
+        <p>Created by:<a href="mailto:anddames@uat.edu">Andrew Dames Jr.</a></p>
+        <p>Date Created: <time datetime="2022-11-09">November 11, 2022</time></p>
+    </footer>
+</body>
+</html>
